@@ -1,0 +1,140 @@
+/*general*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: #FBFBFB;
+}
+
+.post p
+{
+    text-align: justify;
+}
+
+.post a img
+{
+    border-radius: 100PX;
+    height: 150px;
+}
+
+.button
+{
+    background-color: #87CEEB;
+}
+
+/*topbar*/
+.topbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    background-color:#87CEEB;
+    width: 100%;
+    padding: 30px 87px;
+    
+    font-weight: 500;
+    
+}
+
+.topbar nav {
+    float: right;
+}
+
+.topbar nav a {
+    text-decoration: none;
+    padding: 0 55px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    box-shadow:#0000;
+}
+
+.topbar nav a:hover {
+    color: black;
+    transition: .3s;
+}
+.topbar .logo {
+    float: left;
+}
+
+.topbar .logo a {
+    text-decoration: none;
+    padding: 0 53px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.topbar .logo a:hover {
+    color: rgb(37, 118, 184);
+    transition: .3s;
+}
+
+/*barniere*/
+.barniere img {
+    height: 540px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.reservation-button
+{
+    background-color: #2327245d;  /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.reservation-button:hover
+{
+    transition:0.8s;
+    background-color: #4CAF50;
+}
+
+
+
+.conteneur {
+    height: 200px;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
+/*Partie Image*/
+.post {
+    width: 280px;
+    height: auto;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.conteneur .post .button a {
+    width: 100%;
+    font-size: 19px;
+    margin: 30px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
